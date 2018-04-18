@@ -23,7 +23,7 @@ test <- read.csv("~/datasets/titanic/test.csv")
 # The disaster was famous for saving "women and children first", 
 # so let's take a look at the Sex
 
-summary(train$Sex)
+table(train$Sex)
 
 # female   male 
 # 314    577
